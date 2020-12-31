@@ -1,8 +1,8 @@
 package mapper
 
 import (
-	"github.com/pzentenoe/onboarding-project/app/domain/models"
-	"github.com/pzentenoe/onboarding-project/app/infrastructure/database/sql/azure/entity"
+	"github.com/pzentenoe/onboarding-go-clean-architecture/app/domain/models"
+	"github.com/pzentenoe/onboarding-go-clean-architecture/app/infrastructure/database/sql/azure/entity"
 )
 
 func ProductsEntitiesTOProductsModel(productsEntities []*entity.Product) []*models.Product {

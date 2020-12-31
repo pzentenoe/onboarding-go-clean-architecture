@@ -1,4 +1,4 @@
-module github.com/pzentenoe/onboarding-project
+module github.com/pzentenoe/onboarding-go-clean-architecture
 
 go 1.15
 

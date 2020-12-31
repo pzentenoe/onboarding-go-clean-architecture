@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/pzentenoe/onboarding-project/app/application/usecase"
+	"github.com/pzentenoe/onboarding-go-clean-architecture/app/application/usecase"
 	"net/http"
 )
 

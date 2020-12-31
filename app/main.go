@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/pzentenoe/onboarding-project/app/application/usecase/product"
-	"github.com/pzentenoe/onboarding-project/app/infrastructure/database/sql/azure"
-	"github.com/pzentenoe/onboarding-project/app/infrastructure/http/handlers"
+	"github.com/pzentenoe/onboarding-go-clean-architecture/app/application/usecase/product"
+	"github.com/pzentenoe/onboarding-go-clean-architecture/app/infrastructure/database/sql/azure"
+	"github.com/pzentenoe/onboarding-go-clean-architecture/app/infrastructure/http/handlers"
 )
 
 func main() {
